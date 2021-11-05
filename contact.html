@@ -6,5 +6,26 @@
 </head>
 <body>
     <h1>Contact</h1>
+    <h2>Please use the below form to get in touch</h2>
+    <fieldset>
+        <legend>Your Details</legend>
+        <label>Name:<input type="text"name="name"/></label>
+        <label>Email:<input type="email"name="email"></label>
+    </fieldset>
+<br/>
+    <fieldset>
+        <legend>About your enquiry</legend>
+        <label>Reason for contacting:
+            <select name="reason">
+                <option value="general"selected>General enquiry</option>
+                <option value="job">Job Opportunity</option>
+                <option value="gaming">Interested in gaming</option>
+                <option value="other">Something else</option>
+            </select>
+        </label>
+        <label>Add a message:
+            <textarea name="message" placeholder="Type your message here"></textarea>
+        </label>
+    </fieldset>
 </body>
 </html>
